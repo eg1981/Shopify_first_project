@@ -2,14 +2,16 @@
 {% if section.settings.enable_author %}
     <small>{{ article.author }}</small>
 {% endif %}
-
-<time>{{ article.published_at | date: '%d/%m/%y' }}</time>
+{% if section.settings.enable_publish %}
+    <time>{{ article.published_at | date: '%d/%m/%y' }}</time>
+{% endif %}
 <img src="{{ article.image | img_url: 'large' }}" loading="lazy" alt="{{ article.image.alt }}">
 <div>{{ article.content }}</div>
 
 {% schema %}
     {
         "name": "Template Article",
+        "tag": "section",
         "settings": [
             {
                 "type": "checkbox",
