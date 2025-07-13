@@ -1,4 +1,7 @@
 {
+    "name": "Template article",
+    "layout": "theme",
+    "wrapper": "div#template-article.template-article[custom-attribute=hello]",
     "sections": {
         "template": {
             "type": "template-article",
