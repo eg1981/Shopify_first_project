@@ -1,0 +1,61 @@
+{
+  "ftp://meatshop@94.103.185.131:21": {
+    ".bash_logout": {
+      "type": "-",
+      "size": 18,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".bash_profile": {
+      "type": "-",
+      "size": 185,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".bashrc": {
+      "type": "-",
+      "size": 376,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".msmtprc": {
+      "type": "-",
+      "size": 218,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".php": {},
+    ".shadow": {
+      "type": "-",
+      "size": 98,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".ssh": {},
+    ".trash": {},
+    ".wget-hsts": {
+      "type": "-",
+      "size": 170,
+      "lmtime": 0,
+      "modified": false
+    },
+    "Maildir": {},
+    "backups": {},
+    "domains": {},
+    "imap": {},
+    "public_html": {
+      "type": "l",
+      "size": 37,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tmp": {},
+    "מוצרים-Export-2024-July-24-0638.csv": {
+      "type": "-",
+      "size": 449,
+      "lmtime": 0,
+      "modified": false
+    }
+  },
+  "$version": 1
+}
