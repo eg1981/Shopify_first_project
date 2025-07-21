@@ -26,12 +26,12 @@
           "type": "article_author",
           "settings": {}
         },
-        "content": {
-          "type": "article_content",
-          "settings": {}
-        },
         "published_date": {
           "type": "article_published_date",
+          "settings": {}
+        },
+        "content": {
+          "type": "article_content",
           "settings": {}
         }
       },
@@ -39,8 +39,8 @@
         "title",
         "thumbnail",
         "author",
-        "content",
-        "published_date"
+        "published_date",
+        "content"
       ],
       "settings": {
         "enable_author": true,
